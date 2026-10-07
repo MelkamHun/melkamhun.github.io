@@ -13,10 +13,12 @@ if (filterGroup && papers.length) {
       option.setAttribute("aria-pressed", String(option === button));
     }
     for (const paper of papers) {
-      paper.hidden = topic !== "all" && paper.dataset.topic !== topic;
+      const topics = (paper.dataset.topics || "").split(/\s+/);
+      paper.hidden = topic !== "all" && !topics.includes(topic);
     }
     const count = papers.filter((paper) => !paper.hidden).length;
-    document.getElementById("publication-status").textContent = `${count} publications shown.`;
+    const label = button.firstChild.textContent.trim();
+    document.getElementById("publication-status").textContent = `${count} research ${count === 1 ? "output" : "outputs"} · ${label}`;
   });
 }
 

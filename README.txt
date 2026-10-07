@@ -17,6 +17,8 @@ EDITING
 - index.html: biography, news, papers, projects, teaching and links.
 - assets/style.css: layout, colours and responsive styles.
 - assets/main.js: publication filtering and navigation highlighting.
+  A publication's data-topics attribute can contain several space-separated
+  topic identifiers; it appears under each matching research-area filter.
 - assets/melkamu-asmare.jpg: portrait from the KU Leuven eMedia profile.
 - assets/Melkamu_Asmare_Academic_CV.pdf: curated public academic CV.
 - Update the footer and sitemap.xml when publishing substantial changes.
@@ -27,7 +29,10 @@ DESIGN AND CONTENT
 Original implementation inspired by the academic homepage structure at
 https://pituohai.github.io/. No template code or third-party theme is included.
 The content uses the owner's CV and supporting documents, with institutional
-profile and publication links. Project descriptions describe research aims.
+profile and publication links. The expanded bibliography includes labelled
+articles, conference contributions, preprints and theses. Earlier versions of
+the same work are consolidated. The eight projects added in October 2026 were
+confirmed by the owner as funded and approved; descriptions state their aims.
 No private application files, referee details, student names or funding totals
 are included. The downloadable CV is a public summary, not a job application.
 
