@@ -68,6 +68,9 @@ REPLACE YOUR CV OR PORTRAIT
 4. Commit to main and wait for deployment.
 5. Check the CV download or portrait on the live website.
 The PDF is separate: changing index.html does not update the CV automatically.
+The current portrait uses CSS to frame a face within the supplied group photo.
+If you upload a differently framed photo, adjust .portrait-photo in
+assets/style.css (width, left and top) and check desktop and mobile previews.
 
 OPTIONAL LOCAL PREVIEW
 Download the latest repository with Code > Download ZIP and extract it.

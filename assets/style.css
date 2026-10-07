@@ -8,6 +8,10 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.masthead,.profile-links,.cv-button,.sidebar-note,.publication-filters,.skip-link,footer>a{display:none!important}.page-layout{display:block;max-width:none;padding:0}.profile{position:static;display:block;border-bottom:1px solid #ddd;padding-bottom:15px;margin-bottom:25px}.portrait{float:right;width:95px;height:95px}.profile h2 br{display:none}.profile h2{font-size:22px}.profile-role,.affiliation,.location{margin-bottom:4px}.profile-role br{display:none}body{font-size:11px;color:#111}section{margin-bottom:25px;break-inside:auto}h1{font-size:25px}h2{break-after:avoid}.contact{padding:15px}.publication-list li[hidden]{display:grid!important}a{color:inherit}.project-list details .project-description{display:block}nav{display:none}}
 
+/* Frame the supplied photograph around the profile subject. */
+.portrait{position:relative;overflow:hidden}
+.portrait-photo{position:absolute;max-width:none;width:568.888889%;height:auto;left:-250%;top:-34.722222%}
+
 /* Expanded research-area filters and project portfolio. */
 .publication-intro{font-size:13px;line-height:1.8;margin-bottom:18px;color:var(--muted)}
 .publication-filters{row-gap:9px;margin-bottom:12px}
