@@ -22,6 +22,22 @@
 
 
 /* Open doctoral opportunities. */
+/* Doctoral supervision and assessment. */
+.supervision-intro{font-size:14px;line-height:1.85}
+.supervision-group{margin-top:27px}
+.supervision-group>h3{font-size:16px;color:var(--accent-dark);margin-bottom:5px}
+.supervision-group>h3>span{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-top:2px}
+.supervision-list{list-style:none;padding:0;margin:0}
+.supervision-list>li{padding:18px 0;border-bottom:1px solid var(--line);break-inside:avoid}
+.supervision-person{display:flex;justify-content:space-between;align-items:baseline;gap:8px 18px;flex-wrap:wrap}
+.supervision-person h4{font-size:15px;line-height:1.6;font-weight:650;color:var(--ink);margin:0}
+.supervision-person h4 a{color:inherit}
+.supervision-person h4 a:hover{color:var(--accent);text-decoration:underline}
+.supervision-date{font-size:12px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.supervision-list p{font-size:13px;line-height:1.8;margin:7px 0 0}
+.supervision-list .supervision-programme{font-size:11px;font-weight:600;color:var(--accent);margin-top:4px}
+@media(min-width:801px) and (max-width:1050px){nav{gap:13px}nav a{font-size:13px}}
+
 .vacancy-badge{font-size:11px;font-weight:600;color:var(--accent-dark);background:var(--wash);padding:4px 10px;border-radius:3px;white-space:nowrap}
 .vacancy-intro{font-size:14px;line-height:1.8}
 .vacancy-list{border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:4px}
