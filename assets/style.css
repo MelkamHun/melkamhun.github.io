@@ -20,3 +20,20 @@
 .project-status{display:inline-block;color:var(--accent-dark);background:var(--wash);border:1px solid #dfebea;font-size:10px;font-weight:600;padding:3px 8px;border-radius:3px;margin-top:5px}
 @media(max-width:620px){.publication-filters{gap:7px}.publication-filters button{font-size:11px;padding:8px 10px;gap:7px}.project-group-title{font-size:15px}}
 
+
+/* Open doctoral opportunities. */
+.vacancy-badge{font-size:11px;font-weight:600;color:var(--accent-dark);background:var(--wash);padding:4px 10px;border-radius:3px;white-space:nowrap}
+.vacancy-intro{font-size:14px;line-height:1.8}
+.vacancy-list{border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:4px}
+.vacancy{padding:23px 25px}
+.vacancy+.vacancy{border-top:1px solid var(--line)}
+.vacancy-reference{font-size:10px;font-weight:650;letter-spacing:1px;text-transform:uppercase;color:var(--accent);margin-bottom:9px}
+.vacancy h3{font-size:17px;line-height:1.55;margin-bottom:12px}
+.vacancy h3 a{color:var(--ink)}
+.vacancy>p:not(.vacancy-reference){font-size:13px;line-height:1.85;margin-bottom:16px}
+.vacancy-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.vacancy-footer p{font-size:11px;color:var(--muted);margin:0}
+.vacancy-footer time{font-weight:600;color:var(--body)}
+.vacancy-link{display:inline-flex;gap:10px;align-items:center;font-size:12px;font-weight:600;padding:8px 0;min-height:40px}
+@media(max-width:620px){.vacancy{padding:20px 17px}.vacancy h3{font-size:15px}.vacancy-footer{gap:4px}}
+
