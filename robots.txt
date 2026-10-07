@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://melkamhun.github.io/sitemap.xml
